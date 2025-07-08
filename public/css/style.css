@@ -1,0 +1,192 @@
+/*----------------------RESETEO DE WEB--------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1c;
+}
+
+/*----------------------------START NAV ------------------------------------*/
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+nav > img {
+  height: 2rem;
+}
+
+.login {
+  border-radius: 10px;
+  background-color: red;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.login:hover {
+  background-color: #d00000;
+  /*color: #d00000;*/
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  justify-content: flex-end;
+}
+
+.nabvar {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 800;
+  position: relative;
+  padding: 2rem 0;
+  transition: color 0.3s ease;
+}
+
+.nabvar::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: red;
+  bottom: 0;
+  left: 50%;
+  transition: all 0.3s ease;
+}
+.nabvar:hover::after {
+  width: 100%;
+  left: 0;
+}
+.nabvar:hover {
+  color: red;
+}
+
+/*---------------------------- END NAV ------------------------------------*/
+
+/*---------------------------- START FOOTER ------------------------------------*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #121212; /* O el color que prefieras */
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 1000;
+  border-top: solid grey 0.5px;
+  color: aliceblue;
+}
+
+/*---------------------------- END FOOTER ------------------------------------*/
+
+/*---------------------- MEDIA QUERIES PARA RESPONSIVIDAD ------------------*/
+
+/* En pantallas pequeñas (menos de 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+
+  nav > img {
+    margin-bottom: 0.5rem;
+    height: 2.5rem;
+  }
+
+  ul {
+    display: block;
+    gap: 1rem;
+  }
+
+  .login {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nabvar {
+    font-size: 1.1rem;
+  }
+}
+
+/*--------------------------------------------START ASIDE-----------------------------------------------------*/
+aside {
+  display: grid;
+  place-items: center;
+}
+.slider {
+  height: auto;
+  margin: auto;
+  position: relative;
+  width: 99%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 18); /* 9 imágenes duplicadas = 18 */
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9)); /* Mueve solo la primera mitad */
+  }
+}
+
+.slide {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.slider-icon {
+  width: 100%;
+  transition: transform 1s;
+}
+
+.slider-icon:hover {
+  transform: translateZ(20px);
+}
+
+.slider::before,
+.slider::after {
+  content: '';
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  z-index: 2;
+}
+
+/*--------------------------------------------END ASIDE-----------------------------------------------------*/
