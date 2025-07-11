@@ -14,9 +14,12 @@ body {
 /*----------------------------START NAV ------------------------------------*/
 .nav-menu {
   display: flex;
+  background-color: #1c1c1c;
 }
 .nav {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -24,6 +27,8 @@ body {
   align-items: center;
   height: 60px;
   display: flex;
+  background-color: #1c1c1c;
+  z-index: 10;
 }
 
 .nav > img {
@@ -58,8 +63,9 @@ body {
   text-decoration: none;
   font-weight: 800;
   position: relative;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
   transition: color 0.3s ease;
+  display: inline-block;
 }
 
 .nabvar::after {
@@ -80,11 +86,63 @@ body {
   color: red;
 }
 
+.separador {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  margin-top: 60px; /* Igual a la altura del nav */
+}
+
 /*---------------------------- END NAV ------------------------------------*/
 
 /*---------------------------- START MAIN ------------------------------------*/
-.main {
-  height: 120px;
+#hero {
+  height: 450px;
+  width: 100%;
+  background: url('../assets/img/25-cadillac-performance-formula1-masthead-blue-l-v3.avif')
+    no-repeat center / cover;
+  color: aliceblue;
+}
+
+.hero-container {
+  width: 90%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-container .info h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-container .info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-container .info p {
+  font-size: 1.2rem;
+  max-width: 60%;
+}
+
+.hero-container .info a {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.3em 1em;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  color: #d00000;
+  border: 1px solid red;
+  transition: all 0.3s ease;
+}
+
+.hero-container .info a:hover {
+  color: aliceblue;
+  background-color: #d00000;
 }
 /*---------------------------- END MAIN ------------------------------------*/
 
@@ -114,7 +172,7 @@ body {
   color: aliceblue;
   font-size: 20px;
   margin-bottom: 25px;
-  border-bottom: 2px solid #00c3ff;
+  border-bottom: 2px solid #d00000;
 }
 
 .footer-links ul li a {
@@ -194,7 +252,7 @@ body {
 }
 
 /*--------------------------------------------START ASIDE-----------------------------------------------------*/
-aside {
+aside-separador {
   display: grid;
   place-items: center;
 }
@@ -206,6 +264,7 @@ aside {
   display: grid;
   place-items: center;
   overflow: hidden;
+  margin-top: 100px;
 }
 
 .slide-track {
