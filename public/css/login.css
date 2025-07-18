@@ -16,7 +16,7 @@ body {
 .formulario h1 {
   text-align: center;
   margin-top: 20px;
-  padding-bottom: 20px ;
+  padding-bottom: 20px;
   border-bottom: 1px solid silver;
 }
 
@@ -112,4 +112,9 @@ input[type='submit']:hover {
 
 .registrarse a:hover {
   text-decoration: underline;
+}
+
+.footer {
+  margin-top: 600px;
+  background-color: #1c1c1c;
 }
