@@ -97,3 +97,17 @@ input[type='submit']:hover {
   margin-top: 500px;
   background-color: #1c1c1c;
 }
+
+.username input:focus ~ label,
+.username input:not(:placeholder-shown) ~ label {
+  top: -5px;
+  color: #1c1c1c;
+}
+
+.username input:not(:placeholder-shown):valid {
+  border-bottom: 2px solid green; /* Cambia la línea del input si es válido */
+}
+
+.username input:not(:placeholder-shown):invalid {
+  border-bottom: 2px solid red; /* Cambia la línea del input si es inválido */
+}
