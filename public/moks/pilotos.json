@@ -1,0 +1,162 @@
+[
+  {
+    "nombre": "Oscar",
+    "apellido": "Piastri",
+    "pais": "Australia",
+    "bandera": "https://flagcdn.com/16x12/au.png",
+    "escuderia": "McLaren",
+    "numero": 81
+  },
+  {
+    "nombre": "Lando",
+    "apellido": "Norris",
+    "pais": "United Kingdom",
+    "bandera": "https://flagcdn.com/16x12/gb.png",
+    "escuderia": "McLaren",
+    "numero": 4
+  },
+  {
+    "nombre": "Charles",
+    "apellido": "Leclerc",
+    "pais": "Monaco",
+    "bandera": "https://flagcdn.com/16x12/mc.png",
+    "escuderia": "Ferrari",
+    "numero": 16
+  },
+  {
+    "nombre": "Lewis",
+    "apellido": "Hamilton",
+    "pais": "United Kingdom",
+    "bandera": "https://flagcdn.com/16x12/gb.png",
+    "escuderia": "Ferrari",
+    "numero": 44
+  },
+  {
+    "nombre": "George",
+    "apellido": "Russell",
+    "pais": "United Kingdom",
+    "bandera": "https://flagcdn.com/16x12/gb.png",
+    "escuderia": "Mercedes",
+    "numero": 63
+  },
+  {
+    "nombre": "Kimi",
+    "apellido": "Antonelli",
+    "pais": "Italy",
+    "bandera": "https://flagcdn.com/16x12/it.png",
+    "escuderia": "Mercedes",
+    "numero": 12
+  },
+  {
+    "nombre": "Max",
+    "apellido": "Verstappen",
+    "pais": "Netherlands",
+    "bandera": "https://flagcdn.com/16x12/nl.png",
+    "escuderia": "Red Bull Racing",
+    "numero": 1
+  },
+  {
+    "nombre": "Yuki",
+    "apellido": "Tsunoda",
+    "pais": "Japan",
+    "bandera": "https://flagcdn.com/16x12/jp.png",
+    "escuderia": "Red Bull Racing",
+    "numero": 22
+  },
+  {
+    "nombre": "Alexander",
+    "apellido": "Albon",
+    "pais": "Thailand",
+    "bandera": "https://flagcdn.com/16x12/th.png",
+    "escuderia": "Williams",
+    "numero": 23
+  },
+  {
+    "nombre": "Carlos",
+    "apellido": "Sainz",
+    "pais": "Spain",
+    "bandera": "https://flagcdn.com/16x12/es.png",
+    "escuderia": "Williams",
+    "numero": 55
+  },
+  {
+    "nombre": "Nico",
+    "apellido": "Hulkenberg",
+    "pais": "Germany",
+    "bandera": "https://flagcdn.com/16x12/de.png",
+    "escuderia": "Kick Sauber",
+    "numero": 27
+  },
+  {
+    "nombre": "Gabriel",
+    "apellido": "Bortoleto",
+    "pais": "Brazil",
+    "bandera": "https://flagcdn.com/16x12/br.png",
+    "escuderia": "Kick Sauber",
+    "numero": 5
+  },
+  {
+    "nombre": "Liam",
+    "apellido": "Lawson",
+    "pais": "New Zealand",
+    "bandera": "https://flagcdn.com/16x12/nz.png",
+    "escuderia": "Racing Bulls",
+    "numero": 30
+  },
+  {
+    "nombre": "Isack",
+    "apellido": "Hadjar",
+    "pais": "France",
+    "bandera": "https://flagcdn.com/16x12/fr.png",
+    "escuderia": "Racing Bulls",
+    "numero": 6
+  },
+  {
+    "nombre": "Lance",
+    "apellido": "Stroll",
+    "pais": "Canada",
+    "bandera": "https://flagcdn.com/16x12/ca.png",
+    "escuderia": "Aston Martin",
+    "numero": 18
+  },
+  {
+    "nombre": "Fernando",
+    "apellido": "Alonso",
+    "pais": "Spain",
+    "bandera": "https://flagcdn.com/16x12/es.png",
+    "escuderia": "Aston Martin",
+    "numero": 14
+  },
+  {
+    "nombre": "Esteban",
+    "apellido": "Ocon",
+    "pais": "France",
+    "bandera": "https://flagcdn.com/16x12/fr.png",
+    "escuderia": "Haas",
+    "numero": 31
+  },
+  {
+    "nombre": "Oliver",
+    "apellido": "Bearman",
+    "pais": "United Kingdom",
+    "bandera": "https://flagcdn.com/16x12/gb.png",
+    "escuderia": "Haas",
+    "numero": 87
+  },
+  {
+    "nombre": "Pierre",
+    "apellido": "Gasly",
+    "pais": "France",
+    "bandera": "https://flagcdn.com/16x12/fr.png",
+    "escuderia": "Alpine",
+    "numero": 10
+  },
+  {
+    "nombre": "Franco",
+    "apellido": "Colapinto",
+    "pais": "Argentina",
+    "bandera": "https://flagcdn.com/16x12/ar.png",
+    "escuderia": "Alpine",
+    "numero": 43
+  }
+]
