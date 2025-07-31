@@ -1,12 +1,11 @@
 main {
   margin-top: 220px;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .circuitos {
-
   width: 300px;
   height: 150px;
   /*object-fit: contain;  object-fit: cover;*/
@@ -30,13 +29,14 @@ main {
   transform: rotateY(calc(var(--i) * 45deg)) translateZ(500px);
   -webkit-box-reflect: below 2.5px
     linear-gradient(transparent, transparent, rgba(3, 3, 3, 0.2));
+
 }
 
 .pistas span img {
   position: absolute;
   border-radius: 10px;
   border: 6px ridge #ccc;
-   object-fit: contain;
+  object-fit: contain;
 }
 
 @keyframes gallery {
@@ -46,4 +46,10 @@ main {
   to {
     transform: perspective(1000px) rotateY(360deg);
   }
+}
+
+.pistas:hover {
+  animation-play-state: paused;
+    transform: perspective(1000px) scale(1.2); /* agranda 20% */
+
 }
